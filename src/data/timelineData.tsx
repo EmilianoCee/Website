@@ -15,17 +15,7 @@ export type TimelineEntry = {
 export const timelineData: TimelineEntry[] = [
     {
         title: "Applications Open for Fall Semester",
-        description: (
-            <>
-                <p>Join us for a fun semester, we'd love to have you apply!</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScbQxEqWrhuq4GeVM0tcEfi8NbgOgfgui5TF4dNeEa2WxwsIQ/viewform"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   className="text-codify-purple font-semibold hover:underline">
-                    Apply here!
-                </a>
-            </>
-        ),
+        description: "Join us for a fun semester, we'd love to have you apply!",
         date: "Fri, 8/28/26",
     },
     {
